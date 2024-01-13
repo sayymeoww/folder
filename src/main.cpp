@@ -20,7 +20,10 @@ void Loop() {
 void End() { CloseWindow(); }
 
 // Program Code
-void Program() { ClearBackground(RAYWHITE); }
+void Program() {
+    DrawText("Meow!", width / 2.5, height / 2.5, 80, GRAY);
+    ClearBackground(RAYWHITE);
+}
 
 // Run Method
 void Run() {
